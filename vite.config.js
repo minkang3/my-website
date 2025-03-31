@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    base: '/my-website',
   ],
+  base: '/my-website',
 })
