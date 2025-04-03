@@ -50,13 +50,14 @@ function ProjComp(props) {
     >
       <Preview />
       <p className="text-right"> 
-        <span
+        <a
           onMouseEnter={() => setDescVisible(true)}
           onMouseLeave={() => setDescVisible(false)}
-          className="cursor-pointer text-white-700 hover:text-gray-500"
+          className={props.link ? "cursor-pointer text-white-700 hover:text-gray-500" : "cursor-default text-white-700 hover:text-gray-500"}
+          href={props.link}
         >
           { props.projectName }
-        </span>
+        </a>
       </p>
     </div>
   );

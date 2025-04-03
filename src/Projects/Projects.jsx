@@ -21,18 +21,21 @@ function Projects() {
         projectName="Embedded Debugger"
         img={embeddedDebuggerImg}
         desc="Uses ARM's Single Wire Debug (SWD) protocl to implement a debugger for ARM microcontrollers. Has the ability to single step, read/set memory values, and dump flash"
+        link="https://github.com/minkang3/Embedded-Debugger"
       />
 
       <ProjComp 
         projectName="Objectify - CV"
         img={objectifyImg}
         desc="My senior capstone project: Objectify. A computer vision model created using transfer learning using ResNET convolutional layers in a U-Net architecture for improved image segmentation performance while still having the training of a large model like ResNET. Built to be used in a drone competition."
+        link="https://github.com/ofjuneskies/objectify"
       />
 
       <ProjComp
         projectName="Globle - An exploration game"
         img={globleImg}
         desc="My team's submission for the 2022 LA Hacks Hackathon. Globle is a game spun on the daily nature of the popular game, 'Wordle', where rather than a daily word, we propose a daily geolocation, shared within a certain distance. The game promotes exercise and community in a world where these are much needed."
+        link="https://github.com/minkang3/globle-backend"
       />
 
       <ProjComp 
